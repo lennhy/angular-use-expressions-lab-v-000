@@ -7,6 +7,10 @@ function EmailController($filter) {
             subject: 'Want to buy a Surface?'
         })
     };
+
+    this.emailCount = function () {
+      return this.emails.length;
+    };
 }
 
 angular
